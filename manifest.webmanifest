@@ -1,0 +1,28 @@
+{
+  "id": "./",
+  "name": "R2Rnet Community",
+  "short_name": "R2Rnet",
+  "description": "R2Rnet Community user application: professional membership, credentialing, networking and authorized review.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f5f8fc",
+  "theme_color": "#0f2c4a",
+  "lang": "en",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "./pwa/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./pwa/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
