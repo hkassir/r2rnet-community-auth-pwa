@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="R2Rnet">
+  <rect width="512" height="512" rx="102" fill="#071a2b"/>
+  <rect x="28" y="28" width="456" height="456" rx="79" fill="none" stroke="#46d5da" stroke-width="18"/>
+  <text x="256" y="269" fill="#eaf6fc" font-family="Arial, Helvetica, sans-serif" font-size="164" font-weight="800" text-anchor="middle" letter-spacing="-9">R2R</text>
+  <text x="256" y="362" fill="#46d5da" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="700" text-anchor="middle" letter-spacing="1">net</text>
+</svg>
