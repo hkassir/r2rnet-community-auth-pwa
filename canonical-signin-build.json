@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "profile": "canonical-r2rnet-production-signin",
+  "profile": "canonical-r2rnet-three-role-candidate",
   "sourceApp": "r2rnet-community-production-n9uqqs",
   "sourceVersion": "1794353863738",
   "sourceFiles": 28,
   "exactApprovedOrigin": "https://auth-community.intelligentradiology.ai",
-  "authorization": "Neon identity only; protected roles and home routing MUST be separately server-verified",
-  "releaseStatus": "identity-only candidate; no clinical or Manager/Assessor privilege",
+  "authorization": "Server-verified R2Rnet Manager, Assessor or Mobile Radiologist via Neon JWT/Data API; no clinical grants",
+  "releaseStatus": "candidate-only; requires deployed role RPC and live JWT/browser verification before publishing",
   "authModal": "AppDeploy-style provider chooser with passwordless Neon email OTP",
   "socialOAuth": "Google, Apple, X unconfigured by default; disabled until separately qualified",
   "sourceProof": "See canonical source SOURCE_PROVENANCE.json in private repository"
