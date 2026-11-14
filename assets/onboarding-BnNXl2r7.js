@@ -1,4 +1,4 @@
-import"./neon-auth-ygjyFOIe-DwUQzO-9.js";import{c as U,r as i,j as e,d as Ae,X as ie,M as qe,L as Ge,a as Ce,e as We}from"./canonical-neon-client-adapter-C7i5yAkd.js";/**
+import"./neon-auth-ygjyFOIe-DwUQzO-9.js";import{c as U,r as i,j as e,d as Ae,X as ie,M as qe,L as Ge,a as Ce,e as We}from"./canonical-neon-client-adapter-BWcZUPCR.js";/**
  * @license lucide-react v0.469.0 - ISC
  *
  * This source code is licensed under the ISC license.
