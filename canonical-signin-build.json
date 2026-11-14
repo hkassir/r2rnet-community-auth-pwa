@@ -1,14 +1,31 @@
 {
   "schemaVersion": 1,
-  "profile": "canonical-r2rnet-three-role-candidate",
+  "profile": "canonical-r2rnet-three-role-staging-v1",
+  "canonicalBaseline": "R2RNET-AUTH-STAGING-V1",
+  "registryVersion": "1.1",
+  "centralRegistryCommit": "7295009af661590ca50ce2a22d045139ca8be2e2",
+  "ownerAcceptanceDate": "2026-11-13",
+  "acceptedRoles": [
+    "manager",
+    "assessor",
+    "radiologist"
+  ],
+  "roleHomeRoutes": {
+    "manager": "/onboarding.html",
+    "assessor": "/onboarding.html",
+    "radiologist": "/radiologist.html"
+  },
   "sourceApp": "r2rnet-community-production-n9uqqs",
   "sourceVersion": "1794353863738",
   "sourceFiles": 28,
   "exactApprovedOrigin": "https://auth-community.intelligentradiology.ai",
-  "authorization": "Server-verified R2Rnet Manager, Assessor or Mobile Radiologist via Neon JWT/Data API; no clinical grants",
-  "releaseStatus": "candidate-only; requires deployed role RPC and live JWT/browser verification before publishing",
+  "authorization": "Server-verified R2Rnet Manager, Assessor or Mobile-registered Radiologist via Neon JWT/Data API; no clinical grants",
+  "releaseStatus": "owner-accepted staging authentication baseline; production and clinical viewer not certified",
   "radiologistHome": "radiologist.html (canonical source; independent verified Neon role check; no separate signup)",
+  "portalCredentialing": "Radiologist portal sign-in does not require clinical credentialing",
+  "viewerAccess": "independent credentialing and clinical authorization required",
   "authModal": "AppDeploy-style provider chooser with passwordless Neon email OTP",
   "socialOAuth": "Google, Apple, X unconfigured by default; disabled until separately qualified",
+  "acceptanceEvidence": "Notes/R2RNET_THREE_ROLE_AUTH_CANONICAL_ACCEPTANCE_20261113.md",
   "sourceProof": "See canonical source SOURCE_PROVENANCE.json in private repository"
 }
